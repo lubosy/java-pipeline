@@ -10,4 +10,13 @@ class TomcatPipelineDemoApplicationTests {
     void contextLoads() {
     }
 
+    @Test
+    void runTestOne() {
+        System.out.println("The Application is running");
+    }
+
+    @Test
+    void runTestTwo() {
+        System.out.println("The Application is ok");
+    }
 }
