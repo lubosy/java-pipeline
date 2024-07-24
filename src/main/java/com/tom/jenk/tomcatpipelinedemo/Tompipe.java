@@ -26,4 +26,9 @@ public class Tompipe {
         return "<h1>Deployment to uat successful..</h1>";
     }
 
+    @GetMapping("deploy/test/tpd")
+    public String DeployToUatLocal(){
+        return "<h1>Deployment to uat successful..Using a Pipeline</h1>";
+    }
+
 }
